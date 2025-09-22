@@ -12,7 +12,7 @@ export default function Home() {
 
         <Link 
           href ="/sign-up"
-          className=""
+          className="inline-block bg-white text-emerald-500 font-medium px-5 py-3 rounded hover:bg-gray-100 transition-colors"
         >
           Get Started
         </Link>
@@ -42,7 +42,7 @@ export default function Home() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M16 7a4 0 11-8 0 4 4 0 018 0zM12 14v7m-3-3h6"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14v7m-3-3h6"
                 />
               </svg>
             </div>
