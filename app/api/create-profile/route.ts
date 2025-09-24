@@ -37,9 +37,9 @@ export async function POST(){
             data:{
                 userId: clerkUser.id,
                 email,
-                subscrptionTier:null,
+                subscriptionTier:null,
                 stripeSubscriptionId:null,
-                ubscriptionActive:false
+                subscriptionActice:false
             }
         })
 
